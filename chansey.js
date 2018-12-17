@@ -37,8 +37,7 @@ class Satoshi {
 
 let fausto = new Satoshi()
 
-//https://pokeapi.co/api/v2/pokemon/65/
-// https://raw.githubusercontent.com/mag166/personalPokedex/master/arceusJSON.json
+
 axios.get("https://pokeapi.co/api/v2/pokemon/chansey/")
   .then((response) => {
     let data = response.data
@@ -70,8 +69,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/chansey/")
     console.log(error)
   })
 
-//https://pokeapi.co/api/v2/pokemon/68/
-// https://raw.githubusercontent.com/mag166/personalPokedex/master/machampJSON.json
+
 axios.get("http://fizal.me/pokeapi/api/68.json")
   .then((response) => {
     let data = response.data
@@ -108,8 +106,7 @@ axios.get("http://fizal.me/pokeapi/api/68.json")
 
 console.log(fausto.get("machamp"))
 
-//https://pokeapi.co/api/v2/pokemon/65/
-// https://raw.githubusercontent.com/mag166/personalPokedex/master/alakazamJSON.json
+
 axios.get("https://pokeapi.co/api/v2/pokemon/amoonguss/")
   .then((response) => {
     let data = response.data

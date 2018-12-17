@@ -1,6 +1,6 @@
 #headerText {
   color: black;
-  font-family: 'Bree Serif', serif; }
+  font-family: "IBM Plex Serif", serif; }
 
 #nav-bar {
   text-overflow: clip; }
@@ -15,7 +15,7 @@
 h3 {
   position: relative;
   top: 40px;
-  font-family: 'Bree Serif', serif;
+  font-family: "IBM Plex Serif", serif;
   font-size: 30px; }
 
 #pokeball {
@@ -27,7 +27,7 @@ h3 {
   height: 700px;
   text-align: center;
   background: url(abackground.jpg);
-  background-attachment: fixed; }
+  background-attachment: fill; }
 
 .attributes-list li {
   text-align: left;
@@ -37,13 +37,13 @@ h3 {
   /* padding: 90px; */
   /* text-align: left; */
   list-style: none;
-  font-family: 'Press Start 2P', cursive; }
+  font-family: 'Ubuntu Mono', monospace; }
 
 .attack, .defense, .abilities {
   padding-top: 20px; }
 
 h2 {
-  font-family: 'Bree Serif', serif;
+  font-family: "IBM Plex Serif", serif;
   font-size: 40px; }
 
 .pokemon-pic {
