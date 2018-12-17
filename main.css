@@ -1,0 +1,107 @@
+#headerText {
+  color: black;
+  font-family: 'Bree Serif', serif; }
+
+#nav-bar {
+  text-overflow: clip; }
+
+#trainer {
+  height: 650px;
+  text-align: center;
+  margin-top: -30px;
+  background-image: url("wallpaper.jpg");
+  margin-bottom: -30px; }
+
+h3 {
+  position: relative;
+  top: 40px;
+  font-family: 'Bree Serif', serif;
+  font-size: 30px; }
+
+#pokeball {
+  position: relative;
+  top: 40px;
+  height: 300px; }
+
+#amoonguss {
+  height: 700px;
+  text-align: center;
+  background: url(abackground.jpg);
+  background-attachment: fixed; }
+
+.attributes-list li {
+  text-align: left;
+  opacity: 0; }
+
+.attributes-list {
+  /* padding: 90px; */
+  /* text-align: left; */
+  list-style: none;
+  font-family: 'Press Start 2P', cursive; }
+
+.attack, .defense, .abilities {
+  padding-top: 20px; }
+
+h2 {
+  font-family: 'Bree Serif', serif;
+  font-size: 40px; }
+
+.pokemon-pic {
+  opacity: 0;
+  height: 300px; }
+
+#chansey {
+  height: 700px;
+  text-align: center;
+  background: url(cbackground.png);
+  background-attachment: fixed; }
+
+#machamp {
+  height: 700px;
+  text-align: center;
+  background: url(mbackground.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+#pokeball:hover {
+  animation: shake 0.6s; }
+
+.nav-wrapper {
+  background-color: #e4c844; }
+
+#footer {
+  background-color: #e4c844; }
+
+@keyframes shake {
+  0% {
+    transform: rotate(10deg); }
+  25% {
+    transform: rotate(-10deg); }
+  50% {
+    transform: rotate(10deg); }
+  75% {
+    transform: rotate(-10deg); }
+  100% {
+    transform: rotate(10deg); } }
+@media screen and (min-width: 600px) {
+  h2 {
+    position: relative;
+    top: -100px; } }
+@media screen and (max-width: 600px) {
+  .attributes-list li {
+    text-align: center; }
+
+  #pokeball {
+    height: 200px; } }
+.show {
+  animation-name: fadeIn;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=main.css.map */
