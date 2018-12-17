@@ -162,7 +162,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/amoonguss/")
 
     let machamp = document.getElementById("machamp-pic")
     machamp.addEventListener("mouseover", function( event ) {   
-        machamp.src = "machamp-shiny.png";
+        machamp.src = "machamp-2.png";
     })
 
     machamp.addEventListener("mouseout", function( event ) {   
@@ -171,7 +171,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/amoonguss/")
 
     let chansey = document.getElementById("chansey-pic")
     chansey.addEventListener("mouseover", function( event ) {   
-        chansey.src = "chansey-shiny.png";
+        chansey.src = "chansey-2.png";
     })
 
     chansey.addEventListener("mouseout", function( event ) {   
@@ -180,7 +180,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/amoonguss/")
 
     let amoonguss = document.getElementById("amoonguss-pic")
     amoonguss.addEventListener("mouseover", function( event ) {   
-        amoonguss.src = "amoonguss-shiny.png";
+        amoonguss.src = "amoonguss-2.png";
     })
 
     amoonguss.addEventListener("mouseout", function( event ) {   
@@ -191,84 +191,84 @@ axios.get("https://pokeapi.co/api/v2/pokemon/amoonguss/")
         
         if(window.scrollY > 500){
             let amoongussPic = document.getElementById("amoonguss-pic")
-            amoongussPic.style.animation = "fadeIn 0.6s forwards"
+            amoongussPic.style.animation = "fadeIn 0.5s forwards"
             
         }
 
         if(window.scrollY > 550){
             let amoongussHPLabel = document.getElementById("amoonguss-hp-label")
-            amoongussHPLabel.style.animation = "fadeIn 0.6s forwards"
+            amoongussHPLabel.style.animation = "fadeIn 0.5s forwards"
             let amoongussHP = document.getElementById("amoonguss-hp")
-            amoongussHP.style.animation = "fadeIn 1.6s forwards"
+            amoongussHP.style.animation = "fadeIn 1.5s forwards"
             let amoongussAttackLabel = document.getElementById("amoonguss-attack-label")
-            amoongussAttackLabel.style.animation = "fadeIn 2.6s forwards"
+            amoongussAttackLabel.style.animation = "fadeIn 2.5s forwards"
             let amoongussAttack = document.getElementById("amoonguss-attack")
-            amoongussAttack.style.animation = "fadeIn 3.6s forwards"
+            amoongussAttack.style.animation = "fadeIn 3.5s forwards"
 
             let amoongussDefenseLabel = document.getElementById("amoonguss-defense-label")
-            amoongussDefenseLabel.style.animation = "fadeIn 4.6s forwards"
+            amoongussDefenseLabel.style.animation = "fadeIn 4.5s forwards"
             let amoongussDefense = document.getElementById("amoonguss-defense")
-            amoongussDefense.style.animation = "fadeIn 5.6s forwards"
+            amoongussDefense.style.animation = "fadeIn 5.5s forwards"
 
             let amoongussAbilitiesLabel = document.getElementById("amoonguss-abilities-label")
-            amoongussAbilitiesLabel.style.animation = "fadeIn 5.6s forwards"
+            amoongussAbilitiesLabel.style.animation = "fadeIn 5.5s forwards"
             let amoongussAbilities = document.getElementById("amoonguss-abilities")
-            amoongussAbilities.style.animation = "fadeIn 5.6s forwards"
+            amoongussAbilities.style.animation = "fadeIn 5.5s forwards"
 
             
         }
 
         if(window.scrollY > 1200){
             let chanseyPic = document.getElementById("chansey-pic")
-            chanseyPic.style.animation = "fadeIn 0.6s forwards"
+            chanseyPic.style.animation = "fadeIn 0.5s forwards"
             
         }
 
         if(window.scrollY > 1250){
             let chanseyHPLabel = document.getElementById("chansey-hp-label")
-            chanseyHPLabel.style.animation = "fadeIn 0.6s forwards"
+            chanseyHPLabel.style.animation = "fadeIn 0.5s forwards"
             let chanseyHP = document.getElementById("chansey-hp")
-            chanseyHP.style.animation = "fadeIn 1.6s forwards"
+            chanseyHP.style.animation = "fadeIn 1.5s forwards"
             let chanseyAttackLabel = document.getElementById("chansey-attack-label")
-            chanseyAttackLabel.style.animation = "fadeIn 2.6s forwards"
+            chanseyAttackLabel.style.animation = "fadeIn 2.5s forwards"
             let chanseyAttack = document.getElementById("chansey-attack")
-            chanseyAttack.style.animation = "fadeIn 3.6s forwards"
+            chanseyAttack.style.animation = "fadeIn 3.5s forwards"
 
             let chanseyDefenseLabel = document.getElementById("chansey-defense-label")
-            chanseyDefenseLabel.style.animation = "fadeIn 4.6s forwards"
+            chanseyDefenseLabel.style.animation = "fadeIn 4.5s forwards"
             let chanseyDefense = document.getElementById("chansey-defense")
-            chanseyDefense.style.animation = "fadeIn 5.6s forwards"
+            chanseyDefense.style.animation = "fadeIn 5.5s forwards"
 
             let chanseyAbilitiesLabel = document.getElementById("chansey-abilities-label")
-            chanseyAbilitiesLabel.style.animation = "fadeIn 5.6s forwards"
+            chanseyAbilitiesLabel.style.animation = "fadeIn 5.5s forwards"
             let chanseyAbilities = document.getElementById("chansey-abilities")
-            chanseyAbilities.style.animation = "fadeIn 5.6s forwards"
+            chanseyAbilities.style.animation = "fadeIn 5.5s forwards"
         }
 
         if(window.scrollY > 1900){
             let machampPic = document.getElementById("machamp-pic")
-            machampPic.style.animation = "fadeIn 0.6s forwards"
+            machampPic.style.animation = "fadeIn 0.5s forwards"
             
         }
 
         if(window.scrollY > 1950){
             let machampHPLabel = document.getElementById("machamp-hp-label")
-            machampHPLabel.style.animation = "fadeIn 0.6s forwards"
+            machampHPLabel.style.animation = "fadeIn 0.5s forwards"
             let machampHP = document.getElementById("machamp-hp")
-            machampHP.style.animation = "fadeIn 1.6s forwards"
+            machampHP.style.animation = "fadeIn 1.5s forwards"
             let machampAttackLabel = document.getElementById("machamp-attack-label")
-            machampAttackLabel.style.animation = "fadeIn 2.6s forwards"
+            machampAttackLabel.style.animation = "fadeIn 2.5s forwards"
             let machampAttack = document.getElementById("machamp-attack")
-            machampAttack.style.animation = "fadeIn 3.6s forwards"
+            machampAttack.style.animation = "fadeIn 3.5s forwards"
 
             let machampDefenseLabel = document.getElementById("machamp-defense-label")
-            machampDefenseLabel.style.animation = "fadeIn 4.6s forwards"
+            machampDefenseLabel.style.animation = "fadeIn 4.5s forwards"
             let machampDefense = document.getElementById("machamp-defense")
-            machampDefense.style.animation = "fadeIn 5.6s forwards"
+            machampDefense.style.animation = "fadeIn 5.5s forwards"
 
             let machampAbilitiesLabel = document.getElementById("machamp-abilities-label")
-            machampAbilitiesLabel.style.animation = "fadeIn 5.6s forwards"
+            machampAbilitiesLabel.style.animation = "fadeIn 5.5s forwards"
             let machampAbilities = document.getElementById("machamp-abilities")
-            machampAbilities.style.animation = "fadeIn 5.6s forwards"
+            machampAbilities.style.animation = "fadeIn 5.5s forwards"
         }
     })
