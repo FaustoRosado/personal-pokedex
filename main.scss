@@ -2,7 +2,7 @@ $font-text: 'IBM Plex Serif', serif;
 
 #headerText{
     color: black;
-    font-family: 'Bree Serif', serif;
+    font-family: $font-text;
 }
 #nav-bar{
     text-overflow: clip;
