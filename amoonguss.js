@@ -102,7 +102,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/amoonguss/")
   })
 
 
-  axios.get("http://fizal.me/pokeapi/api/68.json")
+  axios.get("https://pokeapi.co/api/v2/pokemon/machamp/")
   .then((response) => {
       let data = response.data
       let hp = document.getElementById("machamp-hp")
