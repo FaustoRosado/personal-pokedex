@@ -65,14 +65,14 @@ axios.get("http://fizal.me/pokeapi/api/68.json")
     attack.innerHTML = machamp.attack
     defense.innerHTML = machamp.defense
 
-    // console.log(fausto.get("machamp"))
+    console.log(fausto.get("machamp"))
 
 
 }).catch((error) => {
     console.log(error)
   })
 
-//   console.log(fausto.get("machamp"))
+  console.log(fausto.get("machamp"))
 
 
 axios.get("https://pokeapi.co/api/v2/pokemon/amoonguss/")
